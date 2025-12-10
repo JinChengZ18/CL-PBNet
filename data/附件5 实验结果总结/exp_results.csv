@@ -1,0 +1,7 @@
+Dataset,PowerEff(BTOPS/W),Throughput(BGOPS),Latency(NS),Accuracy(%)
+Satellite,297.6,447.6,11.9,91.6
+Spambase,314.9,482.1,12.5,93.9
+Yeast,308.4,469.0,12.2,93.0
+Iris,304.4,461.0,12.1,92.5
+Diabetes,291.1,434.5,11.7,90.7
+Vehicle,292.0,436.4,11.7,90.9
