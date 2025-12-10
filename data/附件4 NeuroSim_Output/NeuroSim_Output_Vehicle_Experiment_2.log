@@ -1,0 +1,75 @@
+
+---------------------------- Summary ----------------------------
+
+ChipArea : 4.32487e+07um^2
+Chip total CIM (Forward+Activation Gradient) array : 30650um^2
+Total IC Area on chip (Global and Tile/PE/Local) : 1.77586e+07um^2
+Total ABC (or S/As and precharger for SRAM) area on chip : 1.59032e+07um^2
+Total Accumulation Circuits (subarray level: adders, shiftadds; PE/Tile/Global level: accumulation units) on chip : 6.53584e+06um^2
+Other Peripheries (e.g. decoders, mux, switchmatrix, buffers, pooling and activation units) : 7.57076e+06um^2
+Weight Gradient Calculation : 8.92928e+06um^2
+
+----------------------------Chip layer-by-layer Estimation----------------------------
+
+Chip readLatency of Forward (per epoch) is: 7.22659e+12ns
+Chip readDynamicEnergy of Forward (per epoch) is: 4.79642e+12pJ
+Chip readLatency of Activation Gradient (per epoch) is: 5.97155e+11ns
+Chip readDynamicEnergy of Activation Gradient (per epoch) is: 4.94190e+12pJ
+Chip readLatency of Weight Gradient (per epoch) is: 5.91100e+12ns
+Chip readDynamicEnergy of Weight Gradient (per epoch) is: 4.70314e+14pJ
+Chip writeLatency of Weight Update (per epoch) is: 5.13861e+09ns
+Chip writeDynamicEnergy of Weight Update (per epoch) is: 9.93767e+08pJ
+
+Chip total Latency (per epoch) is: 5.14984e+12ns
+Chip total Energy (per epoch) is: 2.72514e+14pJ
+
+----------------------------Chip PEAK layer-by-layer Estimation----------------------------
+
+Chip PEAK readLatency of Forward (per epoch) is: 5.78463e+10ns
+Chip PEAK readDynamicEnergy of Forward (per epoch) is: 4.15396e+12pJ
+Chip PEAK readLatency of Activation Gradient (per epoch) is: 8.46180e+10ns
+Chip PEAK readDynamicEnergy of Activation Gradient (per epoch) is: 4.33334e+12pJ
+Chip PEAK readLatency of Weight Gradient (per epoch) is: 5.11782e+11ns
+Chip PEAK readDynamicEnergy of Weight Gradient (per epoch) is: 6.43262e+13pJ
+Chip PEAK writeLatency of Weight Update (per epoch) is: 3.68837e+09ns
+Chip PEAK writeDynamicEnergy of Weight Update (per epoch) is: 3.57005e+08pJ
+
+Chip PEAK total Latency (per epoch) is: 1.54415e+12ns
+Chip PEAK total Energy (per epoch) is: 7.35619e+13pJ
+
+Chip leakage Energy is: 3.43053e+10pJ
+Chip leakage Power is: 290.802uW
+
+******************** Breakdown of Latency and Dynamic Energy ********************
+
+ADC readLatency is : 5.51846e+10ns
+Accumulation Circuits readLatency is : 3.11736e+10ns
+Synaptic Array readLatency is : 5.52058e+10ns
+Buffer readLatency is : 3.61032e+12ns
+Interconnect readLatency is : 1.27635e+11ns
+Weight Gradient Calculation readLatency is : 1.32312e+12ns
+Weight Update writeLatency is : 5.13861e+09ns
+DRAM data transfer Latency is : 4.21956e+10ns
+
+ADC readDynamicEnergy is : 7.56382e+12pJ
+Accumulation Circuits readDynamicEnergy is : 6.53097e+11pJ
+Synaptic Array readDynamicEnergy is : 1.00940e+11pJ
+Buffer readDynamicEnergy is : 4.58162e+11pJ
+Interconnect readDynamicEnergy is : 1.35984e+12pJ
+Weight Gradient Calculation readDynamicEnergy is : 6.11728e+13pJ
+Weight Update writeDynamicEnergy is : 3.80856e+08pJ
+DRAM data transfer DynamicEnergy is : 1.89689e+14pJ
+
+******************** Breakdown of Latency and Dynamic Energy ********************
+
+----------------------------Chip layer-by-layer Performance----------------------------
+Energy Efficiency TOPS/W : 291.855307
+Throughput FPS : 4.6849153
+Throughput TOPS : 436.110615
+
+Peak Energy Efficiency TOPS/W : 1097.53454
+Peak Throughput FPS : 54.7202272
+Peak Throughput TOPS : 1501.07046
+
+---------------------------- Hardware Performance Done ----------------------------
+
