@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ucimlrepo"
+version = "0.0.7"
+authors = [
+  { name="Philip Truong", email="ucirepository@gmail.com" },
+]
+description = "Package to easily import datasets from the UC Irvine Machine Learning Repository into scripts and notebooks."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pandas >= 1.0.0",
+  "certifi >= 2020.12.5",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/uci-ml-repo/ucimlrepo/tree/main"
+"Bug Tracker" = "https://github.com/uci-ml-repo/ucimlrepo/issues"
